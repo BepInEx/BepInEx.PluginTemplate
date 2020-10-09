@@ -11,7 +11,7 @@ using BepInExPlugin;
 [assembly:AssemblyProduct(PluginInfo.PLUGIN_NAME)]
 #endregion
 
-namespace BepInExPlugin 
+namespace BepInExPlugin
 {
     /// <summary>
     /// The main metadata of the plugin.
