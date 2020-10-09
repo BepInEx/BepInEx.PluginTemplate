@@ -1,0 +1,74 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "BepInEx",
+    "classifications": [ "BepInEx", "Plugin", "Unity" ],
+    "identity": "BepInEx5.PluginExample",
+    "name": "BepInEx Example Plugin",
+    "shortName": "bepin5-plugin",
+    "sourceName": "BepInExPlugin",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "preferNameDirectory": true,
+    "symbols": {
+        "pluginName": {
+            "type": "parameter",
+            "defaultValue": "BepInEx Plugin",
+            "replaces": "BepInEx Plugin",
+            "description": "Name of the plugin"
+        },
+        "pluginId": {
+            "type": "parameter",
+            "defaultValue": "org.bepinex.my.plugin",
+            "replaces": "org.bepinex.my.plugin",
+            "description": "Plugin ID (only valid characters are [A-z0-9_.])"
+        },
+        "pluginVersion": {
+            "type": "parameter",
+            "defaultValue": "1.0.0",
+            "replaces": "1.0.0",
+            "description": "Plugin version",
+            "onlyIf": {
+                "after": "PLUGIN_VERSION = "
+            }
+        }
+    },
+    "sources": [
+        {
+            "source": "./",
+            "target": "./",
+            "include": [
+                "**/*"
+            ],
+            "exclude": [
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                ".template.config/**/*",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json",
+                ".git/**",
+                "LICENSE",
+                "*.sln",
+                ".gitignore",
+                "src/**"
+            ]
+        },
+        {
+            "source": "./src",
+            "target": "./",
+            "include": [
+                "**/*"
+            ],
+            "exclude": [
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                ".template.config/**/*",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json"
+            ]
+        }
+    ]
+  }
