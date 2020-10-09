@@ -26,6 +26,7 @@ You can place the generate plugin into `BepInEx/plugins` folder and use it.
 
 Some notable parts of the repository are
 
+* `.template.config` - used only for dotnet template generation, can be removed.
 * `BepInExPlugin.sln` - the solution file of the project. Can be opened in an IDE like Visual Studio or Rider.
 * `nuget.config` - configuration for NuGet. Used to specify a link for a custom NuGet feed that contains BepInEx packages.
 * `src` - the folder with the plugin source code.
