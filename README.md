@@ -17,6 +17,7 @@ To get started, copy this repository as a template. You can do one of the follow
 
 * [Use this repository as GitHub repo template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 * [Clone or download this repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+* [Install `dotnet` template from releases](https://github.com/BepInEx/BepInEx.PluginTemplate/releases)
 
 After downloading, open `BepInExPlugin.sln` in your IDE of choice and build.
 The generated plugin DLL will be placed into `src/bin/(Debug|Releate)/net35` folder. 
