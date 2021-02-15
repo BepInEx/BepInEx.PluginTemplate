@@ -2,8 +2,8 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "BepInEx",
     "classifications": [ "BepInEx", "Plugin", "Unity" ],
-    "identity": "BepInEx5.PluginExample",
-    "name": "BepInEx Example Plugin",
+    "identity": "BepInEx5.Plugin",
+    "name": "BepInEx 5 Plugin",
     "shortName": "bepin5-plugin",
     "sourceName": "BepInExPlugin",
     "tags": {
