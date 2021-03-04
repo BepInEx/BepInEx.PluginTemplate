@@ -3,8 +3,8 @@
 This is a basic template for writing BepInEx 5.4 plugins.  
 The template comes preconfigured with the following components:
 
-* **BepInEx.Core 5.4.4** - The core BepInEx library that contains all important core API.
-* **HarmonyX 2.2.0** - Harmony fork that is used in BepInEx. With this you can patch game functions at runtime.
+* **BepInEx.Core 5.4.8** - The core BepInEx library that contains all important core API.
+* **HarmonyX 2.3.2** - Harmony fork that is used in BepInEx. With this you can patch game functions at runtime.
 * **BepInEx.Analyzers 1.0.4** - Helper Roslyn analyzers for BepInEx.
 * **UnityEngine.Core 5.6.0** - Stubbed UnityEngine 5.6 core library. This is usable for game-independent BepInEx plugins. For game plugin development, you should replace this with `UnityEngine.dll` of the game you're modding.
 * **Microsoft.Unity.Analyzers 1.8.2** - A collection of Roslyn analyzers for generic Unity programming.
