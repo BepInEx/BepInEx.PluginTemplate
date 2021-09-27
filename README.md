@@ -1,3 +1,7 @@
+> ⚠ **NOTE** ⚠  
+> This template is not actively maintained anymore.  
+> Instead, consider installing and using our `dotnet` templates: [BepInEx.Templates](https://github.com/BepInEx/BepInEx.Templates).
+
 # BepInEx basic plugin template
 
 This is a basic template for writing BepInEx 5.4 plugins.  
